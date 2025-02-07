@@ -44,18 +44,18 @@ My goal is to help businesses with high-quality design, development, and marketi
     # Task 4
 
     # Load images
-    image_1 = "myself.png"  # Replace with your actual image path
-    image_2 = "an_production.png"  # Replace with your actual image path
+    # image_1 = "myself.png"  # Replace with your actual image path
+    # image_2 = "an_production.png"  # Replace with your actual image path
 
-    # Create two columns
-    col_1, col_2 = st.columns([2, 1])  # Adjust width ratio if needed
+    # # Create two columns
+    # col_1, col_2 = st.columns([2, 1])  # Adjust width ratio if needed
 
-    # Display images
-    with col_1:
-        st.image(image_1, caption="My Self", width=350)
+    # # Display images
+    # with col_1:
+    #     st.image(image_1, caption="My Self", width=350)
 
-    with col_2:
-        st.image(image_2, caption="My Logo", width=350)
+    # with col_2:
+    #     st.image(image_2, caption="My Logo", width=350)
 
 
 # Projects Page
@@ -84,9 +84,9 @@ Features:\n
          * Add item to shop inventory
          * Back to main menu
 """)
-    st.image("project_1_img_1.png", caption="Project 1 | Main Menu", width=350)
-    st.image("project_1_img_2.png", caption="Project 1 | Shop Inventory", width=350)
-    st.image("project_1_img_3.png", caption="Project 1 | Admin Panel", width=350)
+    # st.image("project_1_img_1.png", caption="Project 1 | Main Menu", width=350)
+    # st.image("project_1_img_2.png", caption="Project 1 | Shop Inventory", width=350)
+    # st.image("project_1_img_3.png", caption="Project 1 | Admin Panel", width=350)
     st.markdown("[GitHub Project Link](https://github.com/ANAHAN07/Project-from-songjog-course/tree/main/Grocery%20list%20manager)")            # Task 4
 
     st.write("---")
@@ -114,8 +114,8 @@ Features:\n
        9. Utiliti Bills Calculator
        10. Exit                                                                           
 """)
-    st.image("project_2_img_1.png", caption="Project 2 | Login/Register", width=350)
-    st.image("project_2_img_2.png", caption="Project 2 | Main Menu", width=350)
+    # st.image("project_2_img_1.png", caption="Project 2 | Login/Register", width=350)
+    # st.image("project_2_img_2.png", caption="Project 2 | Main Menu", width=350)
     st.markdown("[GitHub Project Link](https://github.com/ANAHAN07/Project-from-songjog-course/tree/main/Personal%20Task%20Manager%20with%20Insights)")
 
     st.write("---")
@@ -135,8 +135,8 @@ Features:\n
     3.🏆 Score tracking system
     4.🎨 Simple and clean UI         
 """)
-    st.image("game_1_img_1.png", caption="Game 1 | Playing", width=350)
-    st.image("game_1_img_2.png", caption="Game 1 | Game Over", width=350)
+    # st.image("game_1_img_1.png", caption="Game 1 | Playing", width=350)
+    # st.image("game_1_img_2.png", caption="Game 1 | Game Over", width=350)
     st.markdown("[GitHub Game Link](https://github.com/ANAHAN07/My-Games/tree/main/Catch_the_ball)")
 
 # Skills Page
